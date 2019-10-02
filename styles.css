@@ -215,14 +215,22 @@ footer {
   border: #1b1b1b;
 }
 
+.darthvader {
+  width: 100%;
+}
+
 .copyright {
   float: center;
   color: rgb(207, 203, 203);
 }
 
 .information {
-  float: center;
-  color: rgb(207, 203, 203);
+  color: white;
+  flex-direction: row;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: space-between;
 }
 
 .legal {
@@ -231,6 +239,5 @@ footer {
 }
 
 .social-network {
-  display: inline-block;
   text-align: center;
 }
