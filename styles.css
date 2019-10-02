@@ -1,0 +1,236 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0em;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 100%;
+  text-align: center;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+
+.header-img {
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 1240px;
+  background-image: url(/assets/header.png);
+}
+
+@media screen and (max-width: 580px) {
+  .container {
+    padding: 0 2rem;
+  }
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 300;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+h1 {
+  font-size: 54px;
+  color: #1b1b1b;
+}
+
+h2 {
+  font-size: 42px;
+  color: #1b1b1b;
+}
+
+h3 {
+  color: #222120;
+}
+
+p {
+  margin: 20px 0;
+  color: #8d8273;
+  line-height: 24px;
+  text-align: justify;
+}
+
+img {
+  display: inline-block;
+  width: auto;
+
+  background-repeat: no-repeat;
+}
+
+/* fixed navigation */
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  background-color: #1b1b1b;
+  overflow: hidden;
+}
+
+.navbar li {
+  display: inline-block;
+  color: rgb(65, 57, 57);
+  padding: 1 px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a {
+  color: white;
+  padding: 20px;
+}
+
+.navbar ul {
+  text-align: center;
+}
+.navbar li:hover {
+  background-color: #ddd;
+  color: #8d8273;
+}
+
+.navbar li.active {
+  background-color: green;
+  color: white;
+}
+
+/* obscur section */
+
+.obscur {
+  background: white;
+  padding: 2rem 0;
+}
+
+.obscur-content {
+  display: grid;
+  grid-gap: 80px;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: left;
+}
+
+.div.ps4 {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+@media screen and (max-width: 580px) {
+  .obscur-content {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: left;
+  }
+}
+
+/* empire section */
+
+.empire {
+  padding: 1rem 0;
+}
+
+.empire h2 {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 14px;
+  letter-spacing: 12px;
+  margin-bottom: 2em;
+}
+
+.kiloren {
+  width: 100%;
+}
+
+/* features */
+
+.features {
+  background: #282627;
+  padding: 8em 0;
+}
+
+.features-content {
+  display: grid;
+  grid-gap: 80px;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: left;
+}
+@media screen and (max-width: 580px) {
+  .features-content {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: left;
+  }
+}
+
+/* Droides section */
+
+.left {
+  float: left;
+  padding: 0 20px 20px 0;
+  text-align: justify;
+}
+
+/* ewoks section */
+
+.ewoks {
+  background: white;
+  padding: 4em 0;
+  padding-bottom: 0px;
+}
+
+.ewoks h2 {
+  color: #8d8273;
+}
+
+.stormtroopers {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: auto;
+  padding: 1em 0;
+  background: #282627;
+  border: #1b1b1b;
+}
+
+.copyright {
+  float: center;
+  color: rgb(207, 203, 203);
+}
+
+.information {
+  float: center;
+  color: rgb(207, 203, 203);
+}
+
+.legal {
+  float: left;
+  color: rgb(207, 203, 203);
+}
+
+.social-network {
+  display: inline-block;
+  text-align: center;
+}
